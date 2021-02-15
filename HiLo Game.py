@@ -12,7 +12,7 @@ while True:
     elif high_low == "l":
         high=guess-1
     elif high_low == "c":
-        print("You have got it in {} guesses".format(guesses))
+        print("The number, You had thought was {}.You have got it in {} guesses".format(guess,guesses))
         break
     else:
         print("Please, enter h,l or c")
